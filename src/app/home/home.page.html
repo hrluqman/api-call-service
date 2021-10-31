@@ -1,0 +1,21 @@
+<ion-header class="ion-no-border" [translucent]="true">
+  <ion-toolbar>
+    <ion-title>A joke a day wont hurt right?</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Category: {{jokeContainer.category}}</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        {{jokeContainer.joke}}
+      </ion-card-content>
+    </ion-card>
+
+    <ion-button shape="round" fill="outline" (click)="getJoke()">New Joke</ion-button>
+  </div>
+</ion-content>
