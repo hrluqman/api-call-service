@@ -1,7 +1,7 @@
 # 📖  Joke Api Call with Service
 
 A simple project which call an API with several parameters from a service.
-Built with <a href="https://angular.io/">Angular</a> and <a href="https://capacitorjs.com/docs/getting-started/with-ionic">Capacitor</a> with <a href="https://ionicframework.com/">Ionic Framework</a>.
+Built using <a href="https://angular.io/">Angular</a> and <a href="https://capacitorjs.com/docs/getting-started/with-ionic">Capacitor</a> with <a href="https://ionicframework.com/">Ionic Framework</a>.
 The free API are from <a href="https://sv443.net/jokeapi/v2/">JokeAPI</a>.
 
 ## 🚀 Preview
